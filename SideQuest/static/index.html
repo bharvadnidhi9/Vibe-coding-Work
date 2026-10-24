@@ -3,25 +3,37 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>SideQuest – Your next coding adventure starts here</title>
+<meta name="theme-color" content="#4E598C">
+<meta name="description" content="SideQuest turns coding practice into quests, garden growth, goals, and real project submissions.">
+<title>SideQuest | Build your skills</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 <link rel="stylesheet" href="/style.css">
 </head>
 <body>
 <header class="site">
   <div class="wrap hbar">
     <a class="brand" href="#/">SideQuest</a>
-    <button id="menu" type="button" aria-label="Toggle menu">Menu</button>
-    <nav id="nav">
-      <a href="#/discover" data-r="discover">Discover</a>
-      <a href="#/my-quests" data-r="my-quests">My Quests</a>
-      <a href="#/dashboard" data-r="dashboard">Dashboard</a>
-      <a href="#/achievements" data-r="achievements">Achievements</a>
+    <button id="menu" type="button" aria-label="Toggle navigation" aria-expanded="false">Menu</button>
+    <nav id="nav" aria-label="Main navigation">
+      <a href="#/discover" data-r="discover">Quests</a>
+      <a href="#/my-quests" data-r="my-quests">My quests</a>
+      <a href="#/roadmaps" data-r="roadmaps">Roadmaps</a>
+      <a href="#/goals" data-r="goals">Weekly goals</a>
+      <a href="#/garden" data-r="garden">Skill garden</a>
+      <a href="#/submissions" data-r="submissions">Submissions</a>
+      <a href="#/trending" data-r="trending">Daily topic</a>
+      <a href="#/stats" data-r="stats">Stats</a>
+      <a href="#/friends" data-r="friends">Friends</a>
+      <a href="#/profile" data-r="profile">Profile</a>
     </nav>
+    <div class="user-chip" id="header-user">Loading profile...</div>
   </div>
 </header>
-<main id="app" class="wrap"></main>
-<div id="toast" role="status"></div>
-<footer class="site"><div class="wrap">SideQuest: your next coding adventure starts here. Academic project built with HTML, CSS, JavaScript, FastAPI and SQLite.</div></footer>
-<script src="/app.js"></script>
+<main id="app" class="wrap" tabindex="-1"></main>
+<div id="toast" role="status" aria-live="polite"></div>
+<footer class="site"><div class="wrap">SideQuest · Learn a little, build a little, grow a little. <span class="meta">v2 · FastAPI + SQLite</span></div></footer>
+<script src="/app.js" defer></script>
 </body>
 </html>
