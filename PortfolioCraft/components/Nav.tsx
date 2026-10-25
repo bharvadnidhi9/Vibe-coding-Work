@@ -1,0 +1,2 @@
+import Link from "next/link";
+export default function Nav(){return(<nav className="flex items-center justify-between px-6 py-4 border-b border-neutral-200 dark:border-neutral-800"><Link href="/" className="font-bold text-lg">Portfolio<span className="text-indigo-500">Craft</span></Link><div className="flex gap-3"><Link href="/templates" className="btn-s">Templates</Link><Link href="/builder" className="btn-p">Start Building</Link></div></nav>);}
