@@ -26,19 +26,13 @@ Sidequest is one of the projects featured in my vibe coding journey. This projec
 
 More details about the project's purpose, features, technology stack, and implementation will be documented alongside its source code.
 
-### 2. Whodunit 🎮
+### 2. PortfolioiCraft 🎮
 
-**Category:** Game Development
+**Category:** Website
 
-This project explores game development through vibe coding, combining creative experimentation with AI-assisted implementation to turn a game idea into an interactive experience.
+This project explores portfolio through vibe coding, combining creative experimentation with AI-assisted implementation to turn a idea into an interactive experience.
 
-The project provides an opportunity to explore gameplay concepts, user interaction, interface design, and iterative development.
-
-- **Project folder:** `vibe-coded-game/`
-- **Status:** In development
-- **Explore:** Game source files, screenshots, and project-specific instructions.
-
-Gameplay details, controls, and instructions for running the game will be documented in its project folder.
+The project provides an opportunity to explore Portfolio concepts, user interaction, interface design, and iterative development.
 
 ---
 
@@ -63,7 +57,7 @@ The goal is not simply to build faster. It is to use AI as a development aid whi
 vibe-coding-projects/
 ├── sidequest/
 │   └── README.md
-├── whodunit/
+├── PortfolioCraft/
 │   └── README.md
 ├── assets/
 │   └── previews/
